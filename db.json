@@ -1,0 +1,47 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    },
+    {
+      "firstname": "nandini",
+      "lastname": "mr",
+      "email": "nandini@gmail.com",
+      "password": "12345",
+      "id": 2
+    },
+    {
+      "firstname": "nandu",
+      "lastname": "ram",
+      "email": "ram@gmail.com",
+      "password": "12345",
+      "id": 3
+    },
+    {
+      "firstname": null,
+      "lastname": "hgj",
+      "email": "jn",
+      "password": "hgh",
+      "id": 4
+    },
+    {
+      "firstname": "nandini",
+      "lastname": "ramachandra",
+      "email": "gu@gmail.com",
+      "password": "12345",
+      "id": 5
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

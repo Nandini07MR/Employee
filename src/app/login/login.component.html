@@ -1,0 +1,21 @@
+<div class="container">
+    <form [formGroup]="login" (ngSubmit)="logindata()" class="form-box">
+    <h3>Login</h3>
+    <div class="form-group">
+      <label>Email</label>
+      <input type="email" formControlName="email" class="form-control mb-3 mt-3" placeholder="Enter email"/>
+      <div id="emailError" class="alert alert-danger" *ngIf="login.controls.email.dirty && login.controls.email.invalid">
+      <span *ngIf="login.controls.errors.required">field Required</span>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Password</label>
+      <input type="password" formControlName="password" class="form-control mb-3 mt-3" placeholder="Enter password"/>
+    </div>
+    <span>Create New account??<a routerLink="/signup">SignUp</a></span>
+    <br><br>
+    <button type="submit" [disabled]="!login.valid" class="btn btn-success">Login</button>
+    </form>
+  </div>
+  
+  <router-outlet></router-outlet>
