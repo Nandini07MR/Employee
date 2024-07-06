@@ -1,6 +1,15 @@
-.example-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 8px;
+table, th, td
+{
+
+  border: 1px solid black;
+
+  border-collapse: collapse;
+
+}
+td{
+    padding: 5px;
+    
+}
+.header{
+    font-weight: bold;
 }

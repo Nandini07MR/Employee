@@ -32,6 +32,20 @@
       "email": "gu@gmail.com",
       "password": "12345",
       "id": 5
+    },
+    {
+      "firstname": "pavan",
+      "lastname": "kumar",
+      "email": "pavan@gmail.com",
+      "password": "12345",
+      "id": 6
+    },
+    {
+      "firstname": "ramesh",
+      "lastname": "ramesh",
+      "email": "ramesh@gmail.com",
+      "password": "12345",
+      "id": 7
     }
   ],
   "comments": [
